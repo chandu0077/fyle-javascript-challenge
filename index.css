@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+.outerCard {
+  width: 450px;
+  height: auto;
+  /* border-style: solid;
+  border-width: thin; */
+  margin: auto;
+}
+
+.innerCard {
+  /* width: 450px;
+  height: 450px; */
+  /* background-color: red; */
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+select {
+  width: 350px;
+  height: 26px;
+  margin-bottom: 12px;
+}
+/* button {
+  width: 350px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-top: 32px;
+  cursor: pointer;
+} */
+
+@media only screen and (max-width: 1024px) {
+  form label {
+    font-size: 14px;
+  }
+  .overallIncome {
+    font-size: 10px;
+  }
+}
